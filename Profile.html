@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" 
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>profile</title>
+    <style>
+        body{
+            background-color: #181818;
+            color: whitesmoke;
+        }
+        .darker{
+            background-color: #0F0F0F;
+        }
+        .whiting{
+            background-color: wheat;
+            color: wheat;
+            width: 30%;
+        }
+        .borders{
+            border-bottom: white 1px solid;
+            width: 100%;
+        }
+        .borders-top{
+            border-top: white 1px solid;
+            width: 100%;
+            margin-top: 30px;
+        }
+        .container{
+            width: 600px;
+            height: 94vh;
+        }
+        .gray{
+            background-color: rgb(72, 67, 67);
+        }
+        p{
+            font-size: 14px;
+        }
+        .btn-a{
+            background-color: transparent;
+            border: gray 1px solid;
+            padding-top: 0.2rem;
+            padding-bottom: 0.2rem;
+            padding-left: 1.3rem;
+            padding-right: 1.3rem;
+            letter-spacing: 1.8px;
+        }
+        .btn-b{
+            background-color: transparent;
+            border: gray 1px solid;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            letter-spacing: 1.8px;
+        }
+        .btn-c{
+            border: gray 1px solid;
+            padding-top: 0.6rem;
+            padding-bottom: 0.6rem;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            letter-spacing: 1.8px;
+        }
+        span{
+            font-size: 14px;
+            padding-left: 10px;
+        }
+        .image-container{
+            position: relative;
+        }
+        .bi{
+            color: black;
+            position: absolute;
+            top: 85px;
+            left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="row col-12 darker mx-0"><img src="Opera Snapshot_2022-05-07_011257_join.epicode.com.png" alt="">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center pt-5";>
+                <h1 class="borders pb-2">Edit Profile</h1>
+            </div>
+        </div>
+        <div class="image-container row justify-content-start pl-3 pt-2">
+            <img src="data:image/jpeg;base64,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" height="100" alt="">
+            <i class="bi bi-pencil-fill"></i>
+            <div class="col">
+                <h4 class="bg-dark pb-1 pt-1 pl-2">Strive Student</h4>
+                <h5>Language :</h5>
+                <div class="dropdown borders pb-3">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                      English
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Dutch</a></li>
+                      <li><a class="dropdown-item" href="#">Italian</a></li>
+                      <li><a class="dropdown-item" href="#">French</a></li>
+                    </ul>
+                  </div>
+                  <h5 class="py-3">Maturity Settings:</h5>
+                  <h6 class="col-6 gray py-1 pl-3"><b>ALL MATURITY RATINGS</b></h6>
+                  <p>Show titles of <b>all maturity ratings </b> for this profile.</p>
+                  <button class="text-white-50 btn-a" disabled>EDIT</button>
+                  <h5 class="borders-top pt-4">Autoplay Controls</h5>
+                  <input class="firstInput" type="checkbox" value="checkbox" name="checkbox"><span>Autoplay next episode in a series on all devices</span><br>
+                  <input class="firstInput" type="checkbox" value="checkbox" name="checkbox"><span>Autoplay previews while browsing on all devices.</span>
+            </div>
+        </div>
+        <div class="mt-5 borders-top">
+        <button class="btn-c"><b>SAVE</b></button>
+        <button class="btn-b text-white-50 ml-5">CANCEL</button>
+        <button class="btn-b text-white-50 ml-5 mt-4">DELETE PROFILE</button>
+        <script type="module">
+            import { Toast } from 'bootstrap.esm.min.js'
+          
+            Array.from(document.querySelectorAll('.toast'))
+              .forEach(toastNode => new Toast(toastNode))
+          </script>
+    </div>
+    </div>
+</body>
+</html>
